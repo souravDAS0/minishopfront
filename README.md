@@ -117,6 +117,11 @@ Features:
 
 ![Trie Algorithm Visualization](assets/excalidraw.svg)
 
+**Visual Example**:
+- When searching for **'a'**: The algorithm traverses to node 'a' and collects all complete words in its subtree → Suggestions: `['apple', 'and', 'ant']`
+- When searching for **'ap'**: The algorithm traverses to node 'a' → 'p' and collects all complete words from that point → Suggestions: `['apple']`
+- The blue circles indicate "end of word" markers, showing where valid words terminate in the Trie structure
+
 **Code Location**: `lib/commons/services/autocomplete_trie.dart`
 
 ## Persistence Method
