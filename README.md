@@ -115,6 +115,8 @@ Features:
 3. **Suggestions**: Depth-first search collects up to 5 words with matching prefix
 4. **Update**: Live results update on every keystroke
 
+![Trie Algorithm Visualization](assets/excalidraw.svg)
+
 **Code Location**: `lib/commons/services/autocomplete_trie.dart`
 
 ## Persistence Method
